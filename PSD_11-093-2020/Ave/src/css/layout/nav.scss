@@ -1,0 +1,123 @@
+.nav {
+    @include breakpoint(991){
+       height: 11rem;
+    }
+    height: 7rem;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 17px 30px;
+    background: #fff;
+    z-index: 1000;
+    &__logo {
+    }
+    &__button {
+        @include breakpoint(991){
+            display: flex;
+        }
+        display: none;
+        flex-direction: column;
+        align-items:flex-start;
+        cursor: pointer;
+
+        span:nth-child(2) {
+            width: 15px;
+        }
+        span{
+        width: 20px;
+         height:2.5px;
+        background: #000;
+         display: block;
+        margin-bottom: 4px;
+        border-radius: 10px;
+        
+        }
+    }
+    &__list{
+        color: black;
+        @include breakpoint(991){
+            position: absolute;
+            top: 100%;
+            left: 0;
+            max-height: 0;
+            width: 100%;
+            overflow-x: hidden;
+            background: #fff;
+            display: block!important;
+            transition: .6s ease-out;
+        
+        }
+        &__item {
+            @include breakpoint(991){
+                padding: 1.5rem 0;
+            }
+            a {
+                font-weight: 500;
+                padding: 2.4rem 1.5rem;
+        
+             }
+                }
+        }
+
+       
+    &__right{
+        @include breakpoint(991){
+            display: none!important;
+        }
+        &__list{
+            a {
+                    font-weight: 500;
+                    padding: 2.4rem 1.5rem;
+            }
+
+        }
+        .card {
+                position: relative;
+         }
+        .card::before {
+                position: absolute;
+                width: 18px;
+                height: 18px;
+                border-radius: 50%;
+                content: '2';
+                font-size: 13px;
+                background: #bd9e6b;
+                right: 0px;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #fff;
+                text-align: center;
+            }
+        }
+    }
+
+.showmenu{
+    max-height: 65vh;
+    transition: 1s ease-in-out;
+}
+.menuscroll {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 1s ease-out;
+    animation: east .5s ease-in-out forwards;
+    background: rgba(0,0,0,.85);
+}
+
+@include min-breakpoint(992){
+    .activeclor {
+        color: white;
+    }
+}
+
+
+@keyframes east {
+    from {
+        transform: translateY(-100px);
+        
+    }
+    to{
+        transform: translateY(0);
+    
+    }
+}   

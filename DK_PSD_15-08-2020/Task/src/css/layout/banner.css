@@ -1,0 +1,61 @@
+.banner__content_block_title {
+  font-size: 1.4rem;
+  font-weight: 500; }
+
+.banner__content_block_text {
+  font-weight: 500;
+  font-size: 5.2rem;
+  padding: 3rem 0 3.5rem 0;
+  animation: uptodown 2s forwards;
+  transition: 2s linear; }
+
+.banner__content_block_deceription {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: gray;
+  padding-bottom: 3rem; }
+
+.banner__content_block__link {
+  align-items: center;
+  cursor: pointer; }
+  .banner__content_block__link_1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 2rem 3rem;
+    color: white;
+    background-color: #fec65d;
+    border-radius: 25px; }
+    .banner__content_block__link_1:hover {
+      color: black;
+      transition: 1s; }
+  .banner__content_block__link_2 {
+    margin-left: 2rem; }
+    .banner__content_block__link_2 i {
+      color: white;
+      background-color: #f19da4;
+      padding: 2.5rem;
+      border-radius: 50%;
+      font-size: 1.4rem; }
+      .banner__content_block__link_2 i:hover {
+        color: black;
+        transition: 1s; }
+
+.trans {
+  animation: logo 1s forwards;
+  transition: 1s all; }
+
+@keyframes logo {
+  from {
+    transform: translate(100%);
+    opacity: 0; }
+  to {
+    transform: translate(0);
+    opacity: 1; } }
+
+@keyframes uptodown {
+  from {
+    transform: translateY(100%);
+    opacity: 0; }
+  to {
+    transform: translateY(0);
+    opacity: 1; } }

@@ -1,0 +1,12 @@
+.header {
+  height: 9rem; }
+  .header__top {
+    height: 9rem; }
+    .header__top_list_1_item {
+      padding-left: 2.3rem; }
+      .header__top_list_1_item_link {
+        font-size: 1.5rem;
+        font-weight: 500;
+        cursor: pointer; }
+      .header__top_list_1_item i {
+        font-size: 1.5rem; }

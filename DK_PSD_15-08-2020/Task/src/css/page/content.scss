@@ -1,0 +1,71 @@
+.content {
+    background-color: #f3f5fb;
+
+    &_bg{
+      padding: 5rem 0;
+    }
+    &__main{
+        &__block{
+            @include breakpoint(991){
+                padding: 3rem 0;
+            }
+            &__txt{
+                font-size:15px;
+                font-weight: 500;
+
+            }
+            &__line{
+                height: 2px;
+                width: 100%;
+                background-color: black;
+                margin:2rem 0 2.5rem 0;
+            }
+            &__title{
+                font-size:2.8rem;
+                font-weight: 500;
+            }
+            &__deceription {
+                font-size:1.8rem;
+                font-weight: 500;
+                color: gray;
+                margin: 2rem 0 2.5rem 0;
+            }
+            &__link {
+                
+                font-size:1.5rem;
+                font-weight: 500;
+                color: white;
+                padding: 1.5rem 2.5rem;
+                border-radius: 50px;
+                background-color: #5077a0;
+            }
+
+            &__main{
+               
+                &__txt{
+                    font-size:1.5rem;
+                    font-weight: 500;
+                }
+                &__line{
+                    height: 2px;
+                    width: 100%;
+                    background-color: black;
+                    margin:2rem 0 2.5rem 0;
+                }
+                h2{
+                    font-size:2.2rem;
+                    font-weight: 500;
+                    margin-bottom: 2rem;
+                }
+                &__deceription{
+                    font-size:1.6rem;
+                    font-weight: 500;
+                    color: gray;
+                }
+            }
+        }
+    }
+}
+.active {
+    margin-bottom: 5rem;
+ }

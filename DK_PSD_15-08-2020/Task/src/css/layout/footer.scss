@@ -1,0 +1,81 @@
+.footer {
+    padding: 5rem 0;
+   background-image: url(../images/footer.png);
+    background-size: cover;
+
+    &__main{
+        &__block{
+            text-align: center;
+            h4{
+                font-size: 3.2rem;
+                font-weight: 500;
+                
+                padding: 3rem 0 2rem 0;
+                color:white;
+            }
+            &__input{
+                
+               
+               
+            }
+        }
+    }
+}
+.input {
+    padding: 1rem 1.5rem;
+    border-radius: 20px;
+    width: 40rem;
+    color: white;
+    background-color: #757482;
+    opacity: .5;
+}
+.input::before{
+    content: "Subrice";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    top: 0;
+    background: red;
+    
+}
+.unfooter{
+    background-color: #eff3fe;
+    padding: 5rem 0;
+    &__main {
+        border-bottom-style: 2x solid gray;
+        &__block {
+            img {
+                width: 80%;
+            }
+            p { 
+                padding-top: 2rem;
+                font-size: 1.6rem;
+                font-weight: 400;
+            }
+            h2 {
+                font-weight: 500;
+                    font-size: 2rem;
+                padding-bottom: 3rem;
+            }
+            &__list{
+                
+                &__item{
+                    font-weight: 500;
+                    font-size: 1.6rem;
+                    padding-bottom: 2rem;
+                    cursor: pointer;
+                    color: gray;
+
+                    &:hover {
+                        color: blue;
+                    }
+                    i {
+                        font-size: 2rem;
+                        margin-right: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}

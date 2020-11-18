@@ -1,0 +1,160 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge")
+        title Ave Kane 
+        //Style CSS
+        link(rel="stylesheet" type="text/css" href="./css/main.css")
+        //Font Avesome
+        link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css") 
+        //FontFamily
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" )
+        //Plugin
+        link(rel="stylesheet" href="./css/_grid.css")
+        link(rel="stylesheet" href="./css/owl.carousel.min.css")
+        link(rel="stylesheet" href="./css/owl.theme.default.min.css")
+        //Font Awesome
+        script(src="https://kit.fontawesome.com/58c378b9ed.js" crossorigin="anonymous")
+
+    body
+        .wrapper
+            // Start Header
+            .header.d-flex.justify-content-space-between.align-item-center 
+                .header__left
+                    ul.header__left__list.d-flex
+                        li.header__left__list__item 
+                            a POLO COLLECTION IS OUT  <span> > </span>
+                        li.header__left__list__item 
+                            a
+                                <span><i class="fa fa-phone activei" aria-hidden="true"></i><span> +0 333 556 789 
+                        li.header__left__list__item 
+                            a Summer - Up to 50% Off
+                .header__right
+                    ul.header__right__list.d-flex
+                        li.header__right__list__item 
+                            a ACCOUT <span> </span>    
+                        li.header__right__list__item 
+                            a FIND A STORE 
+                        li.header__right__list__item 
+                            a <i class="fab fa-pinterest " aria-hidden="true"></i>
+                            a <i class="fab fa-instagram " aria-hidden="true"></i>
+                //End Header
+                //Start Navigation  
+            navigation.nav.d-flex
+                .nav__logo
+                    img(src="images/shop-logo-1x.png")
+                .nav__button.dflex
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                ul.nav__list.d-flex
+                    li.nav__list__item
+                        a Home
+                    li.nav__list__item
+                        a Shop Women
+                    li.nav__list__item
+                        a Shop Men
+                    li.nav__list__item
+                        a Product Pages
+                    li.nav__list__item
+                        a Shop Pages
+                    li.nav__list__item
+                        a Blog
+                ul.nav__right.d-flex
+                    li.nav__right__list 
+                        a   US
+                    li.nav__right__list.card 
+                        a   <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    li.nav__right__list
+                        a   <i class="fas fa-search" aria-hidden="true"></i>
+                // End Navigation 
+                //Start Banner
+            .banner
+                .banner__bg
+                    img(src="./images/bg-91.jpg")
+                .banner__content
+                    img(src="./images/summer.png")
+                    .banner__content__title Urban <span> Dreses</span>
+                    a.banner__content__button(href="#") Shop Collection
+            //End Banner
+            //Start Collection
+            .collection
+                .container
+                    .collection__top
+                        h2 Ave collection
+                        p Denim and shirts designs by Diana Kate
+                    .collection__main
+                        .collection__main__block.slide
+                            img(src="./images/banner-1.jpg")
+                            .collection__main__block__title Summer Hats
+                        .collection__main__block
+                            img(src="./images/banner-1.jpg")
+                            .collection__main__block__title Summer Hats
+                        .collection__main__block
+                            img(src="./images/banner-2.jpg")
+                            .collection__main__block__title Summer Hats
+                        .collection__main__block
+                            img(src="./images/banner-3.jpg")
+                            .collection__main__block__title Summer Hats
+                        .collection__main__block
+                            img(src="./images/banner-4.jpg")
+                            .collection__main__block__title Summer Hats
+            // End Collection
+            // Start Summer Hits
+            .summer
+                .container
+                    .summer__top
+                        h2  Summmer Hits
+                        p Valid on select styles online and in-store supplies last
+                    .summer__main.row
+                        .summer__block.col-lg-3.col-md-6.col-12
+                            .summer__images
+                                img(src="./images/product-1.jpg")
+                                .summer__overlay
+                                    img(src="./images/product-8.jpg")
+                                .summer__add
+                                  a add to cart 
+                            .summer__caption
+                                a Scalloped Dress
+                                p $139.90
+                        .summer__block.col-lg-3.col-md-6.col-12
+                            .summer__images
+                                img(src="./images/product-2.jpg")
+                                .summer__add
+                                  a add to cart 
+                            .summer__caption
+                                a Ribbed Dress
+                                p $49.90
+                        .summer__block.col-lg-3.col-md-6.col-12
+                            .summer__images
+                                img(src="./images/product-3.jpg")
+                                .summer__notify sold out
+                                .summer__add
+                                  a add to cart 
+                            .summer__caption
+                                a Shiny Sweater
+                                p $9.90
+                        .summer__block.col-lg-3.col-md-6.col-12
+                            .summer__images
+                                img(src="./images/product-4.jpg")
+                                .summer__notify sold out
+                                .summer__add
+                                  a add to cart 
+                            .summer__caption
+                                a Top Stich
+                                p $55.90
+                //End Summer Hits
+                                                                
+        //- Link jequery
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        script(src="./js/owl.carousel.js")
+        script(src="./js/isotope.pkgd.min.js")
+        script(src="./js/nav.js")
+        script(src="./js/main.js")
+        script(src="./js/owl.carousel.min.js")
+    
+        
+        
+        

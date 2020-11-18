@@ -1,0 +1,29 @@
+.want {
+  background-color: #6a54cf;
+  padding: 6rem 0; }
+  .want_main__block {
+    text-align: center; }
+    .want_main__block__iccon {
+      margin-bottom: 3rem; }
+      .want_main__block__iccon i {
+        color: white;
+        background-color: gray;
+        padding: 2rem;
+        border-radius: 50%; }
+    .want_main__block b {
+      font-weight: 500;
+      font-size: 3.2rem;
+      color: white; }
+    .want_main__block span {
+      font-size: 400;
+      color: white;
+      font-size: 3.2rem; }
+    .want_main__block__link {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 3rem 0; }
+      .want_main__block__link a {
+        padding: 2rem;
+        background-color: #21d28e;
+        border-radius: 3rem;
+        color: white; }

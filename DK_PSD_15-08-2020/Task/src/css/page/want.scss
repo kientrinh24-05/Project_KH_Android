@@ -1,0 +1,43 @@
+.want {
+    background-color: #6a54cf;
+    padding: 6rem 0;
+    &_main{
+        &__block{
+            
+            text-align: center;
+            &__iccon {
+                margin-bottom: 3rem;
+                i {
+                    color: white;
+                    background-color: gray;
+                    padding:  2rem;
+                    border-radius: 50%;
+                }
+            }
+            b {
+                font-weight: 500;
+                font-size: 3.2rem;
+                color: white;
+                
+               
+            }
+            span {
+                font-size: 400;
+                color: white;
+                font-size: 3.2rem;
+            }
+            &__link{
+                font-size: 1.5rem;
+                font-weight: 500;
+                margin: 3rem 0;
+               a {
+              
+                padding: 2rem;
+                background-color: #21d28e;
+                border-radius: 3rem;
+                color: white;
+               }
+            }
+        }
+    }
+}

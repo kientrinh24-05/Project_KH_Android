@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+@import './fonts/fonts.scss';
+html {
+    font-size: 62.5%;
+    @media (max-width: 768px){
+        font-size: 50%;
+    }
+}
+body{font-family: 'Montserrat', sans-serif;}
+.dflex {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+$justify: center, flex-start, flex-end,space-between,space-around;
+
+@each $justify in $justify {
+  .justify-#{$justify} {
+    justify-content: $justify;
+  }
+}
+
+$align: center, flex-start, flex-end;
+@each $align in $align {
+    .align-#{$align} {
+      align-items: $align;
+    }
+  }
+.textChapter{
+  color:#777;
+}

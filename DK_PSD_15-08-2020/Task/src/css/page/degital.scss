@@ -1,0 +1,130 @@
+.degital {
+    &__main{
+        &__block{
+            @include  breakpoint(991) {
+                padding: 4rem 0;
+            }
+            img{}
+            &__title{
+                font-size:1.5rem;
+                font-weight: 500;
+
+            }
+            &__line{
+                height: 2px;
+                width: 100%;
+                background-color: black;
+                margin: 3rem 0;
+
+            }
+            h1 {
+                font-size:2.8rem;
+                font-weight: 500;
+            }
+            &__deceription{
+                font-size:1.8rem;
+                font-weight: 500;
+                color: gray;
+                padding: 2rem 0 3rem 0;
+
+              
+            }
+            a {
+                font-size:1.8rem;
+                font-weight: 500;
+                padding: 1.5rem 2rem;
+                color: white;
+                background-color: #f19da4;
+                border-radius: 50px;
+                cursor: pointer;
+            }
+
+            &__item {
+                &__txt{
+                    font-size:1.5rem;
+                    font-weight: 500;
+                    cursor: pointer;
+                    min-height: 26px;
+                margin-bottom: 0;
+                 transition: 0.3s;
+                 padding: 0 0 27px;
+                 border-bottom: 1px solid #e7e7e7;
+                 margin-bottom: 30px;
+                }
+                input{}
+                position: relative;
+                padding-bottom: 9rem;
+                &__deceription{
+                    position: static;
+                    top: 20%;
+                    left: 0;
+                    width: 100%;
+                    max-height: 0;
+                    visibility: hidden;
+                    padding: 0.5rem 0;
+                        
+                    &__un{
+                        font-size:1.6rem;
+                        font-weight: 500;
+                        color: gray;
+                       
+                       
+
+                    }
+                } 
+            }
+        }
+    }
+}
+.ac {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.pad {
+    padding:5rem 0;
+
+}
+.sx {
+    max-height: 65vh;
+    visibility: visible;
+}
+.check:checked ~ .degital__main__block__item__deceription {
+    display: block;
+  
+}
+.check1:checked ~ .degital__main__block__item__deceription1{
+    display: block;
+}
+.ax{
+    animation: sangtrai 2s forwards;
+    // transition: 3s linear;
+}
+@keyframes sangtrai {
+    from { 
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+} 
+
+.amn2{
+    animation: sangphai 2s forwards;
+    // transition: 3s linear;
+}
+@keyframes sangphai {
+    from { 
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+} 
+
+.mautrang1 {
+    color: red;
+}

@@ -1,0 +1,30 @@
+.crafting {
+  padding: 5rem 0; }
+
+.crafting__main__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0; }
+
+.crafting__main__list_item {
+  padding-right: 2rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+  font-weight: 500; }
+
+.crafting__product {
+  column-count: 3;
+  column-gap: 10px;
+  column-count: 10px; }
+
+.crafting__product-item {
+  /* display: flex;
+    width:  calc(100%/3); 
+    width: 100%;
+    margin: 0 0 20px;
+    overflow: hidden;
+    break-inside: avoid; */ }
+
+img {
+  width: 100%; }

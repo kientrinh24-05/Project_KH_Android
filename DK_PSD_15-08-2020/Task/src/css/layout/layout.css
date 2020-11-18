@@ -1,0 +1,130 @@
+.header {
+  height: 9rem; }
+  .header__top {
+    height: 9rem; }
+    .header__top_list_1_item {
+      padding-left: 2.3rem; }
+      .header__top_list_1_item_link {
+        font-size: 1.5rem;
+        font-weight: 500;
+        cursor: pointer; }
+      .header__top_list_1_item i {
+        font-size: 1.5rem; }
+
+.footer {
+  padding: 5rem 0;
+  background-image: url(../images/footer.png);
+  background-size: cover; }
+  .footer__main__block {
+    text-align: center; }
+    .footer__main__block h4 {
+      font-size: 3.2rem;
+      font-weight: 500;
+      padding: 3rem 0 2rem 0;
+      color: white; }
+
+.input {
+  padding: 1rem 1.5rem;
+  border-radius: 20px;
+  width: 40rem;
+  color: white;
+  background-color: #757482;
+  opacity: .5; }
+
+.input::before {
+  content: "Subrice";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 0;
+  top: 0;
+  background: red; }
+
+.unfooter {
+  background-color: #eff3fe;
+  padding: 5rem 0; }
+  .unfooter__main {
+    border-bottom-style: 2x solid gray; }
+    .unfooter__main__block img {
+      width: 80%; }
+    .unfooter__main__block p {
+      padding-top: 2rem;
+      font-size: 1.6rem;
+      font-weight: 400; }
+    .unfooter__main__block h2 {
+      font-weight: 500;
+      font-size: 2rem;
+      padding-bottom: 3rem; }
+    .unfooter__main__block__list__item {
+      font-weight: 500;
+      font-size: 1.6rem;
+      padding-bottom: 2rem;
+      cursor: pointer;
+      color: gray; }
+      .unfooter__main__block__list__item:hover {
+        color: blue; }
+      .unfooter__main__block__list__item i {
+        font-size: 2rem;
+        margin-right: 2rem; }
+
+.banner__content_block_title {
+  font-size: 1.4rem;
+  font-weight: 500; }
+
+.banner__content_block_text {
+  font-weight: 500;
+  font-size: 5.2rem;
+  padding: 3rem 0 3.5rem 0;
+  animation: uptodown 2s forwards;
+  transition: 2s linear; }
+
+.banner__content_block_deceription {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: gray;
+  padding-bottom: 3rem; }
+
+.banner__content_block__link {
+  align-items: center;
+  cursor: pointer; }
+  .banner__content_block__link_1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 2rem 3rem;
+    color: white;
+    background-color: #fec65d;
+    border-radius: 25px; }
+    .banner__content_block__link_1:hover {
+      color: black;
+      transition: 1s; }
+  .banner__content_block__link_2 {
+    margin-left: 2rem; }
+    .banner__content_block__link_2 i {
+      color: white;
+      background-color: #f19da4;
+      padding: 2.5rem;
+      border-radius: 50%;
+      font-size: 1.4rem; }
+      .banner__content_block__link_2 i:hover {
+        color: black;
+        transition: 1s; }
+
+.trans {
+  animation: logo 1s forwards;
+  transition: 1s all; }
+
+@keyframes logo {
+  from {
+    transform: translate(100%);
+    opacity: 0; }
+  to {
+    transform: translate(0);
+    opacity: 1; } }
+
+@keyframes uptodown {
+  from {
+    transform: translateY(100%);
+    opacity: 0; }
+  to {
+    transform: translateY(0);
+    opacity: 1; } }

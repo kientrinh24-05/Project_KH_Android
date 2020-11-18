@@ -1,0 +1,29 @@
+.nav {
+  height: 7rem;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 17px 30px;
+  background: #fff;
+  z-index: 1000; }
+  .nav__list__item a {
+    font-weight: 500;
+    padding: 2.4rem 1.5rem; }
+  .nav__right__list__item a {
+    font-weight: 500;
+    padding: 2.4rem 1.5rem; }
+  .nav__right__list .card {
+    position: relative; }
+  .nav__right__list .card::before {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    content: '2';
+    font-size: 13px;
+    background: #bd9e6b;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: center; }

@@ -1,0 +1,88 @@
+.degital__main__block__title {
+  font-size: 1.5rem;
+  font-weight: 500; }
+
+.degital__main__block__line {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  margin: 3rem 0; }
+
+.degital__main__block h1 {
+  font-size: 2.8rem;
+  font-weight: 500; }
+
+.degital__main__block__deceription {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: gray;
+  padding: 2rem 0 3rem 0; }
+
+.degital__main__block a {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 1.5rem 2rem;
+  color: white;
+  background-color: #f19da4;
+  border-radius: 50px;
+  cursor: pointer; }
+
+.degital__main__block__item {
+  position: relative;
+  padding-bottom: 9rem; }
+  .degital__main__block__item__txt {
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer; }
+  .degital__main__block__item__deceription__un {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: gray;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    max-height: 0;
+    visibility: hidden;
+    padding: 0.5rem 0; }
+
+.ac {
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+
+.pad {
+  padding: 6rem 15rem 0 8rem; }
+
+.show {
+  max-height: 65vh;
+  visibility: visible; }
+
+.check:checked ~ .degital__main__block__item__deceription {
+  display: block; }
+
+.check1:checked ~ .degital__main__block__item__deceription1 {
+  display: block; }
+
+.ax {
+  animation: sangtrai 2s forwards;
+  transition: 3s linear; }
+
+@keyframes sangtrai {
+  from {
+    transform: translateX(-100%);
+    opacity: 0; }
+  to {
+    transform: translateX(0%);
+    opacity: 1; } }
+
+.amn2 {
+  animation: sangphai 2s forwards;
+  transition: 3s linear; }
+
+@keyframes sangphai {
+  from {
+    transform: translateX(100%);
+    opacity: 0; }
+  to {
+    transform: translateX(0%);
+    opacity: 1; } }

@@ -1,0 +1,112 @@
+.our {
+    padding:5rem 0;
+    
+    &__main{    
+        h2 {
+            text-align: center;
+            font-weight: 500;
+            font-size: 2.8rem;
+            padding: 3rem 0;
+        }
+        &__product{
+            transition: 1.6s;
+            &__block{
+                @include breakpoint(991){
+                    margin-bottom: 3rem;
+                }
+                &__img{
+                    position: relative;
+                    img{}
+
+                    &__text{
+                        position: absolute;
+                        top: 15%;
+                        left: 15%;
+
+                        &__icon{
+                            &__top { 
+                                i{
+                                    color: white;
+                                    font-size: rem;
+                                    margin-right: 1rem;
+                                }
+                            }
+                            &__title{
+                                p {
+                                    font-size: 1.5rem;
+                                    font-weight: 500;
+                                    color: white;
+                                    
+                                }
+                            }
+                        }
+
+                        h3 {
+                            font-weight: 500;
+                            font-size: 2.2rem;
+                            color: white;
+                            margin-top: 2rem;
+                        }
+
+                        &__1{
+                            font-weight: 500;
+                            font-size: 1.6rem;
+                            color: gray;
+                            margin: 1.6rem 0;
+                        }
+
+                        a{
+                            font-weight: 500;
+                            font-size: 1.5rem;
+                            color: white;
+                        }
+                    }
+                }
+            }
+            &__link {
+                text-align: center;
+                margin-top: 5rem;
+                a {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    padding: 1.5rem 2.5rem;
+                    background-color: #fec65d;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}
+.ccxs {
+    animation: uptodown .5s forwards;
+}
+.ccxs1{
+    animation: uptodown 1s forwards;
+}
+.ccxs2{
+    animation: uptodown 1.5s forwards;
+}
+
+@keyframes uptodown {
+    from {
+        transform: translateY(100%);
+        visibility: hidden;
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+
+.adp1{
+    transition-delay: 5s;
+}
+.adp2{
+        transition-delay: 10s;
+}
+.adp3 {
+    transition-delay: 15s;
+}

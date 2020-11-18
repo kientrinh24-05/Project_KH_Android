@@ -1,0 +1,72 @@
+.collection {
+  padding: 12rem 0; }
+  .collection__top {
+    text-align: center; }
+    .collection__top h2 {
+      font-size: 4.5rem;
+      font-weight: 500;
+      margin-bottom: 20px; }
+    .collection__top p {
+      font-size: 1.6rem;
+      color: rgba(0, 0, 0, 0.4); }
+  .collection__main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 50px; }
+    .collection__main__block {
+      position: relative;
+      cursor: pointer;
+      transition: .5s ease-out;
+      overflow: hidden;
+      border-radius: 15px; }
+      .collection__main__block img {
+        border-radius: 15px; }
+      .collection__main__block__title {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 20px; }
+
+.slide {
+  grid-column: span 2;
+  grid-row: span 2; }
+
+.collection__main__block:hover {
+  transform: translate(-6.07438px, -7.83784px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); }
+
+.banner {
+  text-align: center;
+  position: relative;
+  overflow: hidden; }
+  .banner__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .banner__content img {
+      width: 19rem; }
+    .banner__content__title {
+      font-size: 9rem;
+      color: #fff;
+      font-weight: 600;
+      margin: 1rem 0 5rem 0; }
+    .banner__content__button {
+      font-size: 1.3rem;
+      color: #181b31;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      background: #fff;
+      padding: 1.8rem 3.5rem;
+      cursor: pointer;
+      transition: .3s ease-out; }
+
+.banner__content__button:hover {
+  background-color: #333333;
+  color: #FFCC66; }

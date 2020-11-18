@@ -1,0 +1,95 @@
+.banner{
+    &__content{
+        &_block{
+            &_title{
+                font-size: 1.4rem;
+                font-weight: 500;
+                @include breakpoint(991){
+                    font-size: rem;
+                }
+            }
+            &_text{
+                font-weight: 500;
+                font-size: 5.2rem;
+                padding: 3rem 0 3.5rem 0;
+                // animation: uptodown 2s forwards;
+                // transition: 2s linear;
+                @include breakpoint(991){
+                    font-size: 4.2rem;
+                }
+            }
+            &_deceription {
+                font-size: 1.6rem;
+                font-weight: 500;
+                color: gray;
+                padding-bottom: 3rem;
+                @include breakpoint(991){
+                    font-size: 1.7rem;
+                }
+            }
+
+            &__link{
+                align-items: center;
+                cursor: pointer;
+                &_1 {
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                    padding:2rem 3rem;
+                    color:white;
+                    background-color: #fec65d;
+                    border-radius: 25px;
+                    &:hover{
+                        color: black;
+                        transition: 1s ;
+                    }
+                }
+                &_2{
+                    margin-left:2rem ;
+                    i{
+                        color:white;
+                        background-color: #f19da4;
+                        padding:2.5rem;
+                        border-radius: 50%;
+                        font-size: 1.4rem;
+                        &:hover{
+                            color: black;
+                            transition: 1s ;
+                        }
+                    }
+                }
+            }
+            img {
+                
+            }
+            &__img{
+                @include breakpoint(1199){
+                    display: none;
+                }
+            }
+        }
+    }
+}
+.trans {
+    animation: logo 1s forwards;
+    transition: 1s all;
+}
+@keyframes logo {
+    from {
+        transform: translate(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+@keyframes uptodown {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
